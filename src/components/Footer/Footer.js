@@ -5,7 +5,7 @@ const getYear = () => {
 }
 const Footer = () => {
     return (
-       <footer className='fixed bottom-0 text-center w-full m-0 bg-blue-900 text-white p-0 font-[poppins]'>
+       <footer className='bottom-0 text-center w-full m-0 bg-blue-900 text-white p-5 font-[poppins]'>
            <p><small>Copyright &copy; Rakibul Hassan Robin | {getYear()}</small></p>
        </footer>
     );

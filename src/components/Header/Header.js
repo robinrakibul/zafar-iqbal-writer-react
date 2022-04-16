@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
-        <header className='shadow-md w-full top-0 left-0'>
+        <header className='shadow-md w-full top-0 left-0 sticky'>
             <div className='bg-white py-5 px-5 flex font-[poppins] font-thin justify-between'>
                 <div className='container cursor-pointer'>
                     <span>
