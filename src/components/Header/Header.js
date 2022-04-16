@@ -9,11 +9,12 @@ const Header = () => {
                     <h2 className='text-xl'>
                        Muhammed Zafar Iqbal</h2>
                 </div>
-                <ul>
-                    <Link className='pr-5' to="/home">Home</Link>
-                    <Link className='pr-5' to="/home#services">Services</Link>
-                    <Link className='pr-5' to="/home#experts">Experts</Link>
-                    <Link className='pr-5' to="/about">About</Link>
+                <ul className='flex'>
+                    <Link className='my-1 pr-5' to="/home">Home</Link>
+                    <Link className='my-1 pr-5' to="/home#services">Services</Link>
+                    <Link className='my-1 pr-5' to="/home#experts">Experts</Link>
+                    <Link className='my-1 pr-5' to="/about">About</Link>
+                    <button className='break-words bg-blue-400 text-white font-[poppins] py-1 px-5 mr-5 rounded hover:bg-blue-800 duration-500'>Get&nbsp;Started</button>
                 </ul>
             </div>
         </nav>
