@@ -4,7 +4,8 @@ const Banner = () => {
     return (
         <>
             <section class="overflow-hidden text-gray-700 ">
-                <div class="container px-5 py-2 mx-auto lg:pt-12 lg:px-32">
+            <div id='banner' className="font-[poppins] text-xl text-blue-600 text-center mt-10 mb-4">Banner</div>
+                <div class="container px-5 mx-auto lg:pt-5 lg:px-32">
                     <div class="flex flex-wrap -m-1 md:-m-2">
                         <div class="flex flex-wrap w-1/5">
                             <div class="w-full p-1 md:p-2">
@@ -39,17 +40,6 @@ const Banner = () => {
                     </div>
                 </div>
             </section>
-            <div class="max-w-md mx-auto bg-white rounded-xl shadow-md mb-10 md:max-w-2xl mt-10">
-                <div class="md:flex">
-                    <div class="md:shrink-0">
-                        <img class="rounded h-52 w-full object-cover md:h-full md:w-48" src="https://i.ibb.co/VSF7v9s/1.jpg" alt=""></img>
-                    </div>
-                    <div class="p-8">
-                        <a href="https://en.wikipedia.org/wiki/Muhammed_Zafar_Iqbal" target='_blank' class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">The most famous writer of Bangladesh</a>
-                        <p class="mt-2 text-slate-500">“কে আমাকে নিয়ে কি ভাবল তাতে আমার কিছু যায় আসেনা , কারন যে আমাকে চেনে সে তো জানেই আমি কেমন , আর যে আমাকে চেনেনা , সে আমাকে নিয়ে কি ভাবল তাতে কি !” <br /> <small>By Zafar Iqbal</small></p>
-                    </div>
-                </div>
-            </div>
         </>
     );
 };
