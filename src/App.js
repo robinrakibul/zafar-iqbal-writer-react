@@ -8,7 +8,7 @@ import Services from './components/Services/Services';
 
 function App() {
   return (
-    <div className="App bg-indigo-200 w-full h-screen">
+    <div className="App w-full h-screen">
       <Header></Header>
       <Routes>
         <Route path="/" element={<Home></Home>}></Route>

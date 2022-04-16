@@ -5,7 +5,7 @@ import Services from '../Services/Services';
 const Home = () => {
     return (
         <div>
-          <h2>Welcome to home</h2> 
+        {/* banner and services component linked */}
           <Banner></Banner>
           <Services></Services> 
         </div>
