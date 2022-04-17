@@ -12,10 +12,6 @@ const Register = () => {
     ] = useCreateUserWithEmailAndPassword(auth);
     const navigate = useNavigate();
 
-    const navigateLogin = () => {
-        navigate('/login');
-    }
-
     if (user) {
         navigate('/home');
     }
