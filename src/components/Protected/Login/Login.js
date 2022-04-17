@@ -4,8 +4,11 @@ import { useLocation, useNavigate } from 'react-router-dom';
 import auth from '../../../firebase.init';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Loading from '../../Loading/Loading';
 
 const Login = () => {
+    let errorWarn;
+
     const emailRef = useRef('');
     const passwordRef = useRef('');
     const navigate = useNavigate();
@@ -15,6 +18,7 @@ const Login = () => {
     const [
         signInWithEmailAndPassword,
         user,
+        loading,
         error,
     ] = useSignInWithEmailAndPassword(auth);
 
@@ -24,6 +28,14 @@ const Login = () => {
         navigate(from, { replace: true });
     }
 
+    if(loading){
+        return <Loading></Loading>
+    }
+
+
+    if (error) {
+        errorWarn = <p className='text-red-500 font-medium'>Error Occured: {error?.message}</p>
+    }
     const handleSubmit = event => {
         event.preventDefault();
         const email = emailRef.current.value;
@@ -53,6 +65,7 @@ const Login = () => {
             </form>
             <p className='mt-1 mb-1'>New Here? <a className='text-red-500 font-medium' href="/register">Register</a></p>
             <p>Forget Password? <button className='text-red-500 font-medium' onClick={resetPassword}>Reset Password</button> </p>
+            {errorWarn}
             <ToastContainer />
         </div>
     );
