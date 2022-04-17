@@ -8,6 +8,7 @@ const Home = () => {
     return (
         <div>
         {/* banner and services component linked */}
+        <h1 className='p-5 text-center font-[poppins] text-3xl font-bold'>A Famous Writer</h1>
           <Banner></Banner>
           <SingleCard></SingleCard>
           <Awards></Awards>

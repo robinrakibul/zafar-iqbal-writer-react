@@ -5,6 +5,7 @@ import auth from '../../../firebase.init';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Loading from '../../Loading/Loading';
+import GoogleLogin from '../../GoogleLogin/GoogleLogin';
 
 const Login = () => {
     let errorWarn;
@@ -63,11 +64,13 @@ const Login = () => {
                 <input className="p-2 mb-3 border-2 border-gray-400 rounded" ref={passwordRef} type="password" placeholder='Enter Your Password' required />
                 <button className="bg-blue-400 text-white px-5 py-2 rounded hover:bg-blue-800 duration-500 w-32 mb-2" type="submit">Login</button>
             </form>
-            <p className='mt-1 mb-1'>New Here? <a className='text-red-500 font-medium' href="/register">Register</a></p>
+            <GoogleLogin></GoogleLogin>
+            <p className='mt-3 mb-1'>New Here? <a className='text-red-500 font-medium' href="/register">Register</a></p>
             <p>Forget Password? <button className='text-red-500 font-medium' onClick={resetPassword}>Reset Password</button> </p>
             {errorWarn}
             <ToastContainer />
         </div>
+        
     );
 };
 
