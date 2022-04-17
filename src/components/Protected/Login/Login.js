@@ -3,7 +3,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 const Login = () => {
     return (
-        <div className='px-80 py-10 container w-full h-full mx-auto'>
+        <div className='px-5 md:px-80 py-10 container w-full h-full mx-auto'>
             <form className='grid grid-rows-4 gap-4'>
                 <h2 className='text-primary text-center mt-2 text-xl font-medium'>Please Login</h2>
                 <input className="p-2 mb-3 border-2 border-gray-400 rounded" type="email" name="" id="" placeholder='Enter Your Email' required />
