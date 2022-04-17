@@ -3,7 +3,7 @@ import React from 'react';
 const SingleCard = () => {
     return (
         <div>
-            <div id='quote' className="font-[poppins] text-xl text-blue-600 text-center mt-10 mb-4">Quotes</div>
+            <div id='quote' className="font-[poppins] font-bold text-3xl text-blue-600 text-center mt-10 mb-4">Quotes</div>
             <div className="max-w-md mx-auto bg-white rounded-xl shadow-md mb-10 md:max-w-2xl mt-10">
                 <div className="md:flex">
                     <div className="md:shrink-0">

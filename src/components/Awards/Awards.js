@@ -3,8 +3,7 @@ import React from 'react';
 const Awards = () => {
     return (
         <div>
-            <div className="font-[poppins] text-xl text-blue-600 text-center mt-10 mb-4">His Awards</div>
-
+            <div id='award' className="font-[poppins] font-bold text-3xl text-blue-600 text-center mt-10 mb-6">His Awards</div>
             <div className="grid grid-cols-3 gap-3 px-10">
                 <div className='bg-blue-200 p-2 border rounded'>
                     <h5 className="text-gray-900 text-xl font-medium mb-2">In 2001</h5>
