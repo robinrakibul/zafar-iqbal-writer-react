@@ -12,22 +12,16 @@ const Login = () => {
     const location = useLocation();
 
     let from = location.state?.from?.pathname || "/";
-    let errorElement;
     const [
         signInWithEmailAndPassword,
         user,
-        loading,
         error,
     ] = useSignInWithEmailAndPassword(auth);
 
-    const [sendPasswordResetEmail, sending] = useSendPasswordResetEmail(auth);
+    const [sendPasswordResetEmail] = useSendPasswordResetEmail(auth);
 
     if (user) {
         navigate(from, { replace: true });
-    }
-
-    if (error) {
-        errorElement = <p className='text-danger'>Error: {error?.message}</p>
     }
 
     const handleSubmit = event => {
@@ -37,7 +31,6 @@ const Login = () => {
 
         signInWithEmailAndPassword(email, password);
     }
-
 
     const resetPassword = async () => {
         const email = emailRef.current.value;
@@ -61,7 +54,6 @@ const Login = () => {
             <p className='mt-1 mb-1'>New Here? <a className='text-red-500 font-medium' href="/register">Register</a></p>
             <p>Forget Password? <button className='text-red-500 font-medium' onClick={resetPassword}>Reset Password</button> </p>
             <ToastContainer />
-            {errorElement}
         </div>
     );
 };

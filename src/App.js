@@ -4,8 +4,10 @@ import About from './components/About/About';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import Home from './components/Home/Home';
+import Checkout from './components/Protected/Checkout/Checkout';
 import Login from './components/Protected/Login/Login';
 import Register from './components/Protected/Register/Register';
+import RequireAuth from './components/Protected/RequireAuth/RequireAuth';
 import Services from './components/Services/Services';
 
 function App() {
@@ -19,6 +21,11 @@ function App() {
         <Route path="/register" element={<Register></Register>}></Route>
         <Route path="/services" element={<Services></Services>}></Route>
         <Route path="/about" element={<About></About>}></Route>
+        <Route path="/checkout" element={
+          <RequireAuth>
+            <Checkout></Checkout>
+          </RequireAuth>
+        }></Route>
       </Routes>
       <Footer></Footer>
     </div>
