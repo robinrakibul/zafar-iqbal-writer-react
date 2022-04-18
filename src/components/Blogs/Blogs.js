@@ -51,7 +51,7 @@ const Blogs = () => {
                         <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
                             data-bs-parent="#accordionFlushExample">
                             <div class="accordion-body py-4 px-5">
-                                Firebase provides a lot of services. Most useful services are:
+                                Firebase provides a lot of services. other services does firebase provide other than authentication are,
                                 <li>App Hosting</li>
                                 <li>Web App Hosting</li>
                                 <li>Authentication</li>
