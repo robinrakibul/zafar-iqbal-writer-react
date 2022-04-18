@@ -1,0 +1,17 @@
+.about-text {
+    width: 50%;
+}
+
+/* text hover effect */
+.hover-text{
+    box-shadow: inset 0 0 0 0 white;
+    color: white;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .5s ease-in-out, box-shadow .5s ease-in-out;
+}
+
+.hover-text:hover {
+    box-shadow: inset 600px 0 0 0 #54b3d6;
+    color: white;
+}
