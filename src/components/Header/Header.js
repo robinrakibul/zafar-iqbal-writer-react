@@ -17,8 +17,9 @@ const Header = () => {
             <div className='bg-white py-5 px-5 flex font-[poppins] font-thin justify-between'>
                 <div className='container cursor-pointer'>
                     <span>
-                        <img className='inline' width="40px" src="logo.svg" alt="" /><h2 className='text-xl inline'>
-                            Zafar Iqbal</h2>
+                        <img className='inline' width="40px" src="logo.svg" alt="" />
+                        <h2 className='text-xl inline'>
+                        Muhammed Zafar Iqbal</h2>
                     </span>
                 </div>
                 <ul className='flex flex-wrap md:flex-nowrap'>
