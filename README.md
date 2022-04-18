@@ -12,9 +12,7 @@ I have created a website on a writer named, Muhammed Zafar Iqbal. In this projec
 <!-- BUILD WITH -->
 ### Tools That Built With
 
-The main elements I have used in this project:
-* HTML
-* Custom CSS
+The main tools I have used in this project:
 * [React.js](https://reactjs.org/)
 * [Tailwind CSS](https://tailwindcss.com/)
 * [Firebase](https://firebase.google.com/)
