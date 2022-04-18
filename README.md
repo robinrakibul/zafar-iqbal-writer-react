@@ -7,7 +7,13 @@ Live Website Link: https://independent-service-prov-4ddd4.web.app/
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-I have created a website on a writer named, Muhammed Zafar Iqbal. In this project, I have implemented a login registration system where any user can try to register with email and password, register with google popup, login, do a password reset etc. I have created header, footer, and components such as About, Awards, Banner, Blogs, Services, etc. I have used react router to create navigation bar, set route, protected route, etc. For look and style, I used tailwind css framework, tailwind-elements and some custom css.
+I have created a website on a writer named, Muhammed Zafar Iqbal. 
+In this project, 
+* I have implemented a login registration system where any user can try to register with email and password.
+* The registration system also contain signin with google popup, accept terms, do a password reset etc. 
+* I have created header, footer, and components such as About, Awards, Banner, Blogs, Services, etc.
+* I have used react router to create navigation bar, set route, protected route, etc.
+* For look and style, I used tailwind css framework, tailwind-elements and some custom css.
 
 <!-- BUILD WITH -->
 ### Tools That Built With
