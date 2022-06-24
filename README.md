@@ -3,6 +3,7 @@
 
 <!-- LIVE WEBSITE LINK -->
 Live Website Link: https://independent-service-prov-4ddd4.web.app/
+Server Link: https://independent-service-server.herokuapp.com/
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
@@ -22,5 +23,7 @@ The main tools I have used in this project:
 * [React.js](https://reactjs.org/)
 * [Tailwind CSS](https://tailwindcss.com/)
 * [Firebase](https://firebase.google.com/)
+* [Heroku](https://www.heroku.com/)
+* [MongoDB](https://www.mongodb.com/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
