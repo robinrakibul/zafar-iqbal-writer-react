@@ -27,7 +27,7 @@ const About = () => {
                     <p className='font-[poppins] mb-5 font-light text-lg'> Hi, I'm a passionate learner who's always willing to learn and work across technologies. I love to explore and try to solve real-life problems. I'm currently doing web development course from ProgrammingHero. I have learned so many things from my student life. In this year, my goal is to get ready to puy myself in job sector.  I want to show my experiences, and work hard to reach that goal to get the success. </p>
                     <div className='flex justify-center'>
                         <a href="https://github.com/robinrakibul" target='_blank'>
-                            <button type="button" class="text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Check My Github</button>
+                            <button type="button" className="text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Check My Github</button>
                         </a>
                     </div>
                 </div>
